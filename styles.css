@@ -1,0 +1,136 @@
+* {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                width: 1200px;
+                font-size: 16px;
+                background: #dedede;
+                font-family: "Avenir", Arial, "sans serif";
+                margin: 0 auto;
+            }
+
+            header {
+                padding: 20px 20px 20px calc(25% + 20px);
+                background: #5C832f;
+            }
+
+            #wrapper {
+                background: #393942;
+                float: left;
+            }
+
+            section {
+                float: right;
+                background: #d8caa8;
+                width: 75%;
+                padding: 15px 20px;
+            }
+
+            aside {
+                float: left;
+                width: 25%;
+                padding: 15px 15px;
+            }
+
+            footer {
+                clear: both;
+                background: #284907;
+                padding: 20px 20px 20px 20px;
+                color: #d8caa8;
+                text-align: right;
+            }
+
+            h1 {
+                font-size: 3.8em;
+                line-height: 1em;
+            }
+
+            h2 {
+                font-size: 2.4em;
+            }
+
+            h3 {
+                font-size: 1.4em;
+                padding-bottom: .5em;
+            }
+
+            aside h3 {
+                color: #d8caa8;
+            }
+
+            p {
+                margin-bottom: 1em;
+            }
+
+            ul {
+                padding-left: 20px;
+            }
+
+            li {
+                list-style-type: none;
+                line-height: 1.8em;
+            }
+
+            small {
+                font-size: .5em;
+            }
+
+            .left {
+                float: left;
+                margin-right: 10px;
+            }
+
+            .right {
+                float: right;
+                margin-left: 10px;
+            }
+
+            figure {
+                width: 33%;
+                margin: 10px 0;
+            }
+
+            figcaption {
+                font-size: .8em;
+                background: #5C832f;
+                padding: 2px 4px;
+            }
+
+            section img {
+                width: 100%;
+            }
+
+            nav a:link {
+                color: #5C832f;
+            }
+
+            nav a:visited {
+                color: #a5a5a5;
+            }
+
+            nav a:hover {
+                color: #d8caa8;
+            }
+
+            nav a:active {
+                color: #d8caa8;
+            }
+
+            footer a:link {
+                color: #d8caa8;
+            }
+
+            footer a:visited {
+                color: #a5a5a5;
+            }
+
+            footer a:hover {
+                color: #5C832f;
+            }
+
+            footer a:active {
+                color: #5C832f;
+            }
